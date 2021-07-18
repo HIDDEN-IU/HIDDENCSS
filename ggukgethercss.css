@@ -1,0 +1,160 @@
+
+body, html {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: linear-gradient(to bottom, #cabaff, #614be1);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto !important;
+    font-family: 'ImcreSoojin', sans-serif;
+    letter-spacing: -0.05em !important;
+}
+
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: url(https://cdn.discordapp.com/attachments/864839210909171755/864850202338656267/4.png) no-repeat;
+  background-size: auto 50px;
+}
+
+header .row>div:nth-child(1)>a>img {
+  display: none;
+	
+	filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+
+#main #main-content>div.frame {
+    border: 10px double #eff0eb;
+    border-radius: 10px 20px 30px 40px / 10px 20px 30px 40px;
+    background-color: rgba(101, 202, 165, 0.7);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background: linear-gradient(to bottom, #c5bbff, #614be1);
+    background-position: left bottom;
+}
+
+#main .menu-wrapper>a.shortcut-link{
+	transition: all ease 1s;
+	background: #614be1;
+    color: #FFB7B5;
+}
+
+#main .menu-wrapper>a.shortcut-link:hover{
+	transform : scale(1.1);
+	background: #ffb7b5;
+    color: #000000;
+}
+
+
+#main .menu-wrapper>.header {
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(to top, transparent, #0007);
+  color: #f8bebc;
+}
+
+
+
+#article-list>.article-list-row{
+
+  transition: all ease 1s;
+
+}
+
+
+
+#article-list>.article-list-row:hover{
+
+  transform: scale( 1.02 );
+
+  background:  #ffb7b5;
+
+}
+
+#article-list #article-list-menu >.btn.square{
+
+
+
+}
+
+
+
+#article-list #article-list-menu >.btn.square:hover{
+}
+
+#article-list>.article-list-row>.item>.list-header.v0>span {
+    background-color: #fff;
+    color: #000000;
+    font-weight: normal;
+}
+
+
+#article-list #article-list-menu >.btn.square::before {
+
+  content: '';
+
+  position: absolute;
+
+  bottom: 50%;
+
+  left: 0px;
+
+  width: 100%;
+
+  height: 1px;
+
+  background: #ffb7b5;
+
+  display: block;
+
+  -webkit-transform-origin: left top;
+
+  -ms-transform-origin: left top;
+
+  transform-origin: left top;
+
+  -webkit-transform: scale(0, 1);
+
+  -ms-transform: scale(0, 1);
+
+  transform: scale(0, 1);
+
+  -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+
+  transition: transform 0.14s cubic-bezier(1, 0, 0, 1)
+
+}
+
+
+
+#article-list #article-list-menu >.btn.square:hover::before {
+
+  -webkit-transform-origin: right top;
+
+  -ms-transform-origin: right top;
+
+  transform-origin: right top;
+
+  -webkit-transform: scale(1, 1);
+
+  -ms-transform: scale(1, 1);
+
+  transform: scale(1, 1)
+
+}
+
+
+
+#article-list>.article-list-row{
+
+}
